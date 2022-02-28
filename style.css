@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans:wght@600&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('colors.css');
+
+body {
+    margin: 0%;
+    padding: 0%;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--background);
+}
+
+/* #image {
+    margin: 10px;
+    width: 250px;
+} */
+
+#toppom {
+    margin: 0%;
+    margin-bottom: 20px;
+    padding: 0%;
+
+    width: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: var(--foreground);
+
+    text-align: center;
+}
+
+#greetings {
+    font-size: 2em;
+
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0%;
+    margin-bottom: 5px;
+    padding: 0%;
+}
+
+#quote {
+    overflow-wrap: break-word;
+
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+    color: var(--color2);
+
+    margin: 0%;
+    padding: 0%;
+}
+
+#container {
+    margin: 0%;
+    padding: 10px;
+
+    height: min-content;
+    width: min-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: var(--foreground);
+
+    text-align: center;
+
+    background-color: var(--color8);
+    border: solid var(--foreground) 2px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+#time {
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    font-size: 5em;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+    margin: 0%;
+    padding: 0%;
+}
+
+#date {
+    font-family: 'Hubballi', cursive;
+    font-size: 1.5em;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    color: var(--color1);
+
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+#shortcuts {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: min-content;
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--background);
+    border-radius: 20px;
+}
+
+#shortcuts li {
+    display: inline-block;
+
+    background-color: var(--color8);
+
+    margin: 5px;
+    padding: 6px;
+    padding-bottom: 0%;
+
+    border-radius: 20px;
+
+    transition: 0.5s;
+}
+
+#shortcuts li:hover {
+    transform: scale(1.1);
+}
