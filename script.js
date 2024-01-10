@@ -24,13 +24,13 @@ function displayClock(){
     let year = dateObj.getFullYear();
 
     if(hrs <= 4){
-        greetings.textContent = "Boa madrugada, xspt!";
+        greetings.textContent = "Boa madrugada";
     }else if(hrs <= 12){
-        greetings.textContent = "Bom dia, xspt!";
+        greetings.textContent = "Bom dia";
     }else if(hrs <= 18){
-        greetings.textContent = "Boa tarde, xspt!";
+        greetings.textContent = "Boa tarde";
     }else if(hrs <= 23){
-        greetings.textContent = "Boa noite, xspt!";
+        greetings.textContent = "Boa noite";
     }else{
         //ta;
     }
