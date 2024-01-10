@@ -1,6 +1,11 @@
 function chooseQuote(){
     const quote = document.querySelector('#quote');
-    const quotes = ["Em briga de saci cada chute é voadora.", "Em reino de cegos, quem enxerga é rei.", "Quem cedo madruga passa o dia com sono.", "Se o curupira fizer um moonwalk para que lado ele vai?"];
+    const quotes = [
+       "Os professores abrem a porta, mas você deve entrar por você mesmo.",
+       "Não tenha medo de tentar, tenha medo de não tentar e ver que a vida passou e você não se arriscou como deveria.",
+       "E se não dar certo hoje, não era para ser. Aí tu levanta a cabeça e vai pra guerra vencer.",
+       "Se tiver milhares de motivos para desistir, arranje milhões para seguir em frente!"
+    ];
 
     selected = quotes[Math.floor(Math.random() * quotes.length)];
     quote.textContent = selected;
